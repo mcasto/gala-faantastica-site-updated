@@ -1,0 +1,432 @@
+OK: TRUNCATE admin_users
+-- takes: 14.060 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:9
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `admin_users`
+-- takes: 13.611 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `admin_users` (`id`, `email`, `pass_hash`, `token`, `reset_token`) VALUES (1, 'castoware@gmail.com', '$2y$10$sU5aZC/SheUcIBIKr3asxORHWQtA//LiZDKPzME9Zbux.VvenxxUK', '652954cecb1df', '');
+-- rows: 1
+-- takes: 2.036 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `admin_users` (`id`, `email`, `pass_hash`, `token`, `reset_token`) VALUES (2, 'reinrosemary@gmail.com', '$2y$10$ubDmGA14xnnFlR1lUzeo9uMOsWfxlyd11i/J4YTY5N5adomp4czD2', '651f129f07e75', NULL);
+-- rows: 1
+-- takes: 2.008 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `admin_users` (`id`, `email`, `pass_hash`, `token`, `reset_token`) VALUES (3, 'agps.guru@gmail.com', '$2y$10$whjvV5Tm6cELRUOeJQ7Oc.b6SHDbG/Wu7NHxusSNZzJJDDTqoN6MW', NULL, NULL);
+-- rows: 1
+-- takes: 2.209 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `biddable_items`
+-- takes: 11.881 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (1, '83', 'Remarkable, Heirloom Jewelry Set', 'Notable conjunto de joyas de herencia', 'Donated by Eden Cross', 'Donado por Eden Cross', 'Incredible, 1960 Vintage Amethyst Silver Necklace, bracelet, and earrings. Marked by Antonio Pineda, one of the masters of silver jewelry during the Renaissance that occurred after the Mexican Revolution. These beautiful and unique pieces are stamped with the Hallmark in Taxco, Mexico.', 'Elegante collar, pulsera y pendientes Vintage 1960 de amatista y plata. Marcado por Antonio Pineda, uno de los maestros de la joyería en plata durante el Renacimiento que se dio después de la Revolución Mexicana. Estas hermosas y únicas piezas están estampadas con el sello Hallmark en Taxco, México.', '/images/ungala/auction-items/83.jpg', 3000, 1000, 10);
+-- rows: 1
+-- takes: 2.576 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (2, '42', 'One Week International Vacation', 'Vacaciones internacionales de una semana', 'Donated by Suzie and Charlie Schantz', 'Donado por Suzie y Charlie Schantz', '  - 1 Week International Time Share Resort Including Marriott\n  - 1 Bedroom Villa at a Luxury Resort Worldwide\n  - Sleeps 4\n  - Travel plans may be made 1-3 months in advance\n  - Pick your luxury destination from the US to Latin America to Europe\n  - Valid for 1 year, subject to resort availability\n  - Donor will coordinate with the buyer for resort selection', '  - 1 Semana Resort Internacional Tiempo Compartido Incluido Marriott\n  - Villa de 1 dormitorio en un resort de lujo en todo el mundo\n  - 4 personas\n  - Los planes de viaje pueden hacerse con 1-3 meses de antelación\n  - Elija su destino de lujo entre EE.UU., Latinoamérica y Europa\n  - Válido durante 1 año, sujeto a disponibilidad del complejo\n  - El donante se coordinará con el comprador para la selección del complejo turístico.\n', '/images/ungala/auction-items/42.jpg', 2000, 1000, 20);
+-- rows: 1
+-- takes: 2.830 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (3, '80', 'Hacienda Paradise While Experiencing Otavalo', 'Hacienda Paraíso Mientras Experimenta Otavalo', 'Donated by Hacienda Cusin', 'Donado por Hacienda Cusin', 'Two-night getaway for two people, including breakfast, at Ecuador\'s most splendid hacienda, Hacienda Cusin.\n\nThis hacienda is more than 400 years old and located just 90 minutes from Quito. Our restored hacienda is ideally located for exploring the markets of Otavalo, as well as the incredibly diverse nature and culture of the province of Imbabura.\n\nFurnished with fine antiques, selected Andean crafts, and curiosities, its charming perennial gardens and activities for all ages provide the perfect setting for your Andean adventure.', 'Escapada de dos noches para dos personas, con desayuno incluido, en la hacienda más espléndida de Ecuador, Hacienda Cusin.\n\nEsta hacienda tiene más de 400 años y se encuentra a sólo 90 minutos de Quito. Nuestra hacienda restaurada goza de una ubicación ideal para explorar los mercados de Otavalo, así como la increíble diversidad natural y cultural de la provincia de Imbabura.\n\nAmueblada con finas antigüedades, artesanías andinas selectas y curiosidades, sus encantadores jardines perennes y actividades para todas las edades proporcionan el escenario perfecto para su aventura andina.\n', '/images/ungala/auction-items/80.jpg', 317, 160, 30);
+-- rows: 1
+-- takes: 2.448 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (4, '79', 'Brand New Brother Computerized Sewing Machine Project', 'Nuevo proyecto de máquina de coser computarizada Brother', 'Donated by Brenda Langdon', 'Donado por Brenda Langdon', '  - Runway Limited Edition\n  - Includes all accessories with step pedal and instruction manual', '  - Pasarela Edición Limitada\n  - Incluye todos los accesorios con pedal y manual de instrucciones\n', '/images/ungala/auction-items/79.jpg', 599, 350, 40);
+-- rows: 1
+-- takes: 1.913 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (5, '82', '1974 Hermes Scarf \"Springs\"', 'Bufanda Hermes \"Springs\" de 1974', 'Donated by Eden Cross', 'Donado por Eden Cross', '  - Navy Blue, Red, Gold by Phillippe Ledoux\n  - Square Silk 90 cm x 88 cm\n  - Designed with a classic antique carriage', '- Azul marino, rojo, dorado de Phillippe Ledoux\n- Seda cuadrada 90 cm x 88 cm\n- Diseñado con un carro antiguo clásico\n', '/images/ungala/auction-items/82.jpg', 700, 350, 50);
+-- rows: 1
+-- takes: 2.533 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (6, '108', 'Nintendo Switch Gaming System', 'Nintendo Switch consola de juegos', 'Donated by Wendy and Terry Zarr', 'Donado por Wendy y Terry Zarr', 'Get your Game On!\n\nThis new gaming system comes with 4 games:\n  - Mario Cart\n  - Fitness Boxing II\n  - ring Fit Adventure\n  - Clubhouse Games\n\nIt includes a steering wheel and attachments to connect it to your TV with all the cables and a carrying case.', '¡Ponte a jugar!\n\nEste nuevo sistema de juego viene con 4 juegos:\n  - Mario Cart\n  - Fitness Boxing II\n  - Ring Fit Adventure\n  - Juegos Clubhouse\n\nIncluye un volante y accesorios para conectarlo a tu televisor con todos los cables y una bolsa de transporte.\n', '/images/ungala/auction-items/108.jpg', 550, 200, 60);
+-- rows: 1
+-- takes: 1.577 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (7, '112', '\"Convención\" 45 Watchful Dog', '\"Convención\" 45 Perro Guardián', 'Donated by Jane Hiltbrand', 'Donado por Jane Hiltbrand', 'Photograph by renowned Cuenca Artist, Jane Hiltbrand (<a href=\"https://www.architecturalcuenca.com\">website</a>)', 'Fotografía de la reconocida artista conquense, Jane Hiltbrand (<a href=\"https://www.architecturalcuenca.com\">sitio web</a>)\n', '/images/ungala/auction-items/112.jpg', 100, 50, 70);
+-- rows: 1
+-- takes: 1.826 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (8, '48', 'Recliner in Microfiber', 'Sillón reclinable de microfibra', 'Donated by JD Muebles', 'Donada por JD Muebles', 'Super comfortable Microfiber Recliner as featured at the gala. The recliner style can be changed and bid applied to another available model from the donor company. ', 'Súper cómodo sillón reclinable de microfibra como el presentado en la gala. El estilo del sillón reclinable se puede cambiar y la oferta se puede aplicar a otro modelo disponible de la empresa donante.', '/images/ungala/auction-items/48.png', 425, 200, 80);
+-- rows: 1
+-- takes: 1.824 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (9, '102', '3-Day Paper Making Class', 'Curso de 3 días sobre fabricación de papel', 'Donated by Kimberley Wood ', 'Donada por Kimberley Wood ', 'Set loose your creative side in this 3-day workshop of paper making! You will try different techniques of making paper from fibers native to Ecuador.\n\n  - Day 1: Learn to pull sheets of plain paper and use inclusions of flowers, leaves, string and more.\n  - Day 2: Make colored paper and two-toned sheets of paper.\n  - Day 3: Make marbled paper and use Japanese stab-binding in a decorative book.\n  - All materials are provided.\n  - Coffee,  tea,  juice and snacks are provided.\n', '¡Da rienda suelta a tu lado creativo en este taller de 3 días de fabricación de papel! Probarás diferentes técnicas de fabricación de papel a partir de fibras autóctonas de Ecuador.\n\n  - Día 1: Aprende a tirar hojas de papel liso y a usar inclusiones de flores, hojas, cordeles y más.\n  - Día 2: Haga papel de colores y hojas de papel de dos tonos.\n  - Día 3: Haga papel jaspeado y utilice la encuadernación japonesa en un libro decorativo.\n  - Todos los materiales están incluidos.\n  - Café,  té,  jugos y bocadillos.', '/images/ungala/auction-items/102.png', 175, 87, 90);
+-- rows: 1
+-- takes: 1.832 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (10, '16', 'Custom Pet Portrait by Amelia Earl', 'Retrato personalizado de mascota por Amelia Earl', 'Donated by Amerlia Earl', 'Donada por Amelia Earl', 'Capture the amazing essence of your best friend forever with a custom pet portrait by artist Amelia Earl. ', 'Captura para siempre la increíble esencia de tu mejor amigo con un retrato personalizado de mascota realizado por la artista Amelia Earl.', '/images/ungala/auction-items/16.jpeg', 300, 150, 100);
+-- rows: 1
+-- takes: 1.961 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (11, '51', 'Pewter Menorah from Israel', 'Menorah de peltre de Israel', 'Donated by Eden Cross', 'Donada por Eden Cross', 'Distinctive Pewter Menorah from Israel. Subtle  landscapes of Israeli houses engraved through out the piece.  ', 'Distintiva menorá de peltre procedente de Israel. Sutiles paisajes de casas israelíes grabados por toda la pieza.', '/images/ungala/auction-items/51.jpeg', 225, 115, 110);
+-- rows: 1
+-- takes: 1.609 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (12, '96', 'Genuine Garnet Ring ', 'Anillo de granate auténtico', 'Donated by Kathy Keel', 'Donada por Kathy Keel', 'Large Marquise-shaped genuine Garnet ring with channel set garnets and 10K Gold. Approximate gem stone weight is over two carets.', 'Anillo de granate genuino en forma de marquesa con granates engastados en canal y oro de 10 quilates. El peso aproximado de la gema es de más de dos quilates.', '/images/ungala/auction-items/96.jpeg', 600, 300, 120);
+-- rows: 1
+-- takes: 1.873 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (13, '91', 'Ceramic Pot by Eduardo Segovia', 'Maceta de cerámica de Eduardo Segovia', 'Donated by Mary Thomajan', 'Donada por Mary Thomajan', 'Andean Series early period ceramic pot with stand by artist Eduardo Segovia.', 'Olla de cerámica de la Serie Andina de la primera época con soporte del artista Eduardo Segovia.', '/images/ungala/auction-items/91.jpeg', 500, 250, 130);
+-- rows: 1
+-- takes: 1.743 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (14, '43', '$800 Full Lazer Treatment', '$800 Tratamiento Lazer Completo', 'Donated by Dr. Victor Astudillo', 'Donada por Dr. Victor Astudillo', 'Dr. Victor is a certified Aesthetic and Reconstructive Plastic Surgeon, with fifteen years of experience in Palm Beach, Florida and Ecuador. He specializes in cosmetic-aesthetic, facial, breast, and body Plastic Surgery. He is recognized by his international patients and colleagues alike for his outstanding results in facial aesthetic surgery. Dr. Victor\'s most redeeming quality is his artistic eye, which allows him to balance aesthetics and beauty to achieve natural, harmonic and lasting results.', 'El Dr. Victor es un Cirujano Plástico Estético y Reconstructivo certificado, con quince años de experiencia en Palm Beach, Florida y Ecuador. Se especializa en Cirugía Plástica cosmética-estética, facial, mamaria y corporal. Es reconocido por sus pacientes internacionales y colegas por sus excelentes resultados en cirugía estética facial. El Dr. Victor es su ojo artístico, que le permite equilibrar la estética y la belleza para lograr resultados naturales, armónicos y duraderos.', '/images/ungala/auction-items/43.jpeg', 800, 400, 140);
+-- rows: 1
+-- takes: 2.058 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `buy_now_orders`
+-- takes: 10.923 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `contacts`
+-- takes: 10.487 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (1, 'Carmen Méndez ', 'carmenduque0204@gmail.com', 'Donar un tapiz ', 'Nos gustaría donar un tapiz hecho en macramé, valorado en $100 aproximadamente. Por favor más detalles. Gracias ', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Mon, 11 Sep 2023 18:16:40 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: B5lz7CUnTCyusCA6TNF3FQ\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-09-11 18:16:40');
+-- rows: 1
+-- takes: 1.801 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (2, 'Todd Johns', 'runnerman1603@gmail.com', 'Purchasing tickets for the Gala on October 7', 'I\'m interested to purchase two tickets for the Oct 7th event.\nI looked on a website that mentioned La Cuadra as the place to get them.\nI noticed that La Cuadra is only open from 6:30 pm which is not convenient for me.\nIs there another place where the tickets are sold that might be easier to obtain?\nThanks,\nTodd Johns', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Tue, 12 Sep 2023 18:27:02 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: 7syD_z11Rv-OqQeo-WsRzw\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-09-12 18:27:02');
+-- rows: 1
+-- takes: 2.043 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (3, 'Felma Melecio Nato ', 'gclarefelma@gmail.com', NULL, 'Donde puedo pagar Los ticket. Necessito un cuenta bancaria por fa', '{\n    \"statusCode\": 400,\n    \"headers\": [\n        \"HTTP\\/1.1 400 Bad Request\",\n        \"Server: nginx\",\n        \"Date: Wed, 13 Sep 2023 21:31:15 GMT\",\n        \"Content-Type: application\\/json\",\n        \"Content-Length: 293\",\n        \"Connection: keep-alive\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"{\\\"errors\\\":[{\\\"message\\\":\\\"The subject is required. You can get around this requirement if you use a template with a subject defined or if every personalization has a subject defined.\\\",\\\"field\\\":\\\"subject\\\",\\\"help\\\":\\\"http:\\/\\/sendgrid.com\\/docs\\/API_Reference\\/Web_API_v3\\/Mail\\/errors.html#message.subject\\\"}]}\"\n}', '2023-09-13 21:31:15');
+-- rows: 1
+-- takes: 1.862 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (4, 'Margie Grillo', 'mhgrillo@gmail.com', NULL, 'We would like to make a donation to FAAN. Our friend has asked since we will not be attending the formal event, to make a donation. Is it possible to do thru PayPal or credit card.', '{\n    \"statusCode\": 400,\n    \"headers\": [\n        \"HTTP\\/1.1 400 Bad Request\",\n        \"Server: nginx\",\n        \"Date: Thu, 14 Sep 2023 03:01:27 GMT\",\n        \"Content-Type: application\\/json\",\n        \"Content-Length: 293\",\n        \"Connection: keep-alive\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"{\\\"errors\\\":[{\\\"message\\\":\\\"The subject is required. You can get around this requirement if you use a template with a subject defined or if every personalization has a subject defined.\\\",\\\"field\\\":\\\"subject\\\",\\\"help\\\":\\\"http:\\/\\/sendgrid.com\\/docs\\/API_Reference\\/Web_API_v3\\/Mail\\/errors.html#message.subject\\\"}]}\"\n}', '2023-09-14 03:01:27');
+-- rows: 1
+-- takes: 3.110 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (5, 'Ana', 'anitaguachunarevalo@gmail.com', 'Kolo restaurante ', 'I contact you from Kolo. Frank is currently not in the country and the restaurant does not have much information about his participation in the event. Could you provide me with some form of contact?', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Thu, 28 Sep 2023 13:36:56 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: PPrc7RaFRhCnSQq1cphK4A\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-09-28 13:36:56');
+-- rows: 1
+-- takes: 2.441 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (6, 'Millena Jarrín ', 'lalyjarrind@hotmail.com', 'Rossmery', 'Buenos días, acabo de comprar una entrada para la velada de esta tarde y noche, le agradecería que me ayude con un lugar en una mesa divertida para disfrutar de este hermoso evento, muchas gracias Rossmery', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Sat, 07 Oct 2023 14:02:37 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: f8WGHMpaQ9auBDhqt0iPKg\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-10-07 14:02:37');
+-- rows: 1
+-- takes: 1.870 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (7, 'Millena ', 'lalyjarrind@hotmail.com', 'Rossmery', 'Buenos días, sería posible asistir está noche al evento por favor ya que es la primera vez para mí poder estar en un eventual por una causa tan noble como la de colaborar para el hogar de los angelitos ❤️', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Sat, 07 Oct 2023 14:35:07 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: vw9QLPQgRdeRiygeL2RP4Q\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-10-07 14:35:07');
+-- rows: 1
+-- takes: 1.853 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `donations`
+-- takes: 9.677 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `online_bids`
+-- takes: 21.087 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE `registrations`
+-- takes: 13.015 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:32:33
+
+OK: TRUNCATE admin_users
+-- takes: 147.639 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:9
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: TRUNCATE `admin_users`
+-- takes: 142.196 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `admin_users` (`id`, `email`, `pass_hash`, `token`, `reset_token`) VALUES (1, 'castoware@gmail.com', '$2y$10$sU5aZC/SheUcIBIKr3asxORHWQtA//LiZDKPzME9Zbux.VvenxxUK', '652954cecb1df', '');
+-- rows: 1
+-- takes: 105.997 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `admin_users` (`id`, `email`, `pass_hash`, `token`, `reset_token`) VALUES (2, 'reinrosemary@gmail.com', '$2y$10$ubDmGA14xnnFlR1lUzeo9uMOsWfxlyd11i/J4YTY5N5adomp4czD2', '651f129f07e75', NULL);
+-- rows: 1
+-- takes: 105.537 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `admin_users` (`id`, `email`, `pass_hash`, `token`, `reset_token`) VALUES (3, 'agps.guru@gmail.com', '$2y$10$whjvV5Tm6cELRUOeJQ7Oc.b6SHDbG/Wu7NHxusSNZzJJDDTqoN6MW', NULL, NULL);
+-- rows: 1
+-- takes: 105.545 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: TRUNCATE `biddable_items`
+-- takes: 113.134 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (1, '83', 'Remarkable, Heirloom Jewelry Set', 'Notable conjunto de joyas de herencia', 'Donated by Eden Cross', 'Donado por Eden Cross', 'Incredible, 1960 Vintage Amethyst Silver Necklace, bracelet, and earrings. Marked by Antonio Pineda, one of the masters of silver jewelry during the Renaissance that occurred after the Mexican Revolution. These beautiful and unique pieces are stamped with the Hallmark in Taxco, Mexico.', 'Elegante collar, pulsera y pendientes Vintage 1960 de amatista y plata. Marcado por Antonio Pineda, uno de los maestros de la joyería en plata durante el Renacimiento que se dio después de la Revolución Mexicana. Estas hermosas y únicas piezas están estampadas con el sello Hallmark en Taxco, México.', '/images/ungala/auction-items/83.jpg', 3000, 1000, 10);
+-- rows: 1
+-- takes: 106.266 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (2, '42', 'One Week International Vacation', 'Vacaciones internacionales de una semana', 'Donated by Suzie and Charlie Schantz', 'Donado por Suzie y Charlie Schantz', '  - 1 Week International Time Share Resort Including Marriott\n  - 1 Bedroom Villa at a Luxury Resort Worldwide\n  - Sleeps 4\n  - Travel plans may be made 1-3 months in advance\n  - Pick your luxury destination from the US to Latin America to Europe\n  - Valid for 1 year, subject to resort availability\n  - Donor will coordinate with the buyer for resort selection', '  - 1 Semana Resort Internacional Tiempo Compartido Incluido Marriott\n  - Villa de 1 dormitorio en un resort de lujo en todo el mundo\n  - 4 personas\n  - Los planes de viaje pueden hacerse con 1-3 meses de antelación\n  - Elija su destino de lujo entre EE.UU., Latinoamérica y Europa\n  - Válido durante 1 año, sujeto a disponibilidad del complejo\n  - El donante se coordinará con el comprador para la selección del complejo turístico.\n', '/images/ungala/auction-items/42.jpg', 2000, 1000, 20);
+-- rows: 1
+-- takes: 105.660 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (3, '80', 'Hacienda Paradise While Experiencing Otavalo', 'Hacienda Paraíso Mientras Experimenta Otavalo', 'Donated by Hacienda Cusin', 'Donado por Hacienda Cusin', 'Two-night getaway for two people, including breakfast, at Ecuador\'s most splendid hacienda, Hacienda Cusin.\n\nThis hacienda is more than 400 years old and located just 90 minutes from Quito. Our restored hacienda is ideally located for exploring the markets of Otavalo, as well as the incredibly diverse nature and culture of the province of Imbabura.\n\nFurnished with fine antiques, selected Andean crafts, and curiosities, its charming perennial gardens and activities for all ages provide the perfect setting for your Andean adventure.', 'Escapada de dos noches para dos personas, con desayuno incluido, en la hacienda más espléndida de Ecuador, Hacienda Cusin.\n\nEsta hacienda tiene más de 400 años y se encuentra a sólo 90 minutos de Quito. Nuestra hacienda restaurada goza de una ubicación ideal para explorar los mercados de Otavalo, así como la increíble diversidad natural y cultural de la provincia de Imbabura.\n\nAmueblada con finas antigüedades, artesanías andinas selectas y curiosidades, sus encantadores jardines perennes y actividades para todas las edades proporcionan el escenario perfecto para su aventura andina.\n', '/images/ungala/auction-items/80.jpg', 317, 160, 30);
+-- rows: 1
+-- takes: 109.283 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:01
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (4, '79', 'Brand New Brother Computerized Sewing Machine Project', 'Nuevo proyecto de máquina de coser computarizada Brother', 'Donated by Brenda Langdon', 'Donado por Brenda Langdon', '  - Runway Limited Edition\n  - Includes all accessories with step pedal and instruction manual', '  - Pasarela Edición Limitada\n  - Incluye todos los accesorios con pedal y manual de instrucciones\n', '/images/ungala/auction-items/79.jpg', 599, 350, 40);
+-- rows: 1
+-- takes: 107.071 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (5, '82', '1974 Hermes Scarf \"Springs\"', 'Bufanda Hermes \"Springs\" de 1974', 'Donated by Eden Cross', 'Donado por Eden Cross', '  - Navy Blue, Red, Gold by Phillippe Ledoux\n  - Square Silk 90 cm x 88 cm\n  - Designed with a classic antique carriage', '- Azul marino, rojo, dorado de Phillippe Ledoux\n- Seda cuadrada 90 cm x 88 cm\n- Diseñado con un carro antiguo clásico\n', '/images/ungala/auction-items/82.jpg', 700, 350, 50);
+-- rows: 1
+-- takes: 106.734 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (6, '108', 'Nintendo Switch Gaming System', 'Nintendo Switch consola de juegos', 'Donated by Wendy and Terry Zarr', 'Donado por Wendy y Terry Zarr', 'Get your Game On!\n\nThis new gaming system comes with 4 games:\n  - Mario Cart\n  - Fitness Boxing II\n  - ring Fit Adventure\n  - Clubhouse Games\n\nIt includes a steering wheel and attachments to connect it to your TV with all the cables and a carrying case.', '¡Ponte a jugar!\n\nEste nuevo sistema de juego viene con 4 juegos:\n  - Mario Cart\n  - Fitness Boxing II\n  - Ring Fit Adventure\n  - Juegos Clubhouse\n\nIncluye un volante y accesorios para conectarlo a tu televisor con todos los cables y una bolsa de transporte.\n', '/images/ungala/auction-items/108.jpg', 550, 200, 60);
+-- rows: 1
+-- takes: 105.718 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (7, '112', '\"Convención\" 45 Watchful Dog', '\"Convención\" 45 Perro Guardián', 'Donated by Jane Hiltbrand', 'Donado por Jane Hiltbrand', 'Photograph by renowned Cuenca Artist, Jane Hiltbrand (<a href=\"https://www.architecturalcuenca.com\">website</a>)', 'Fotografía de la reconocida artista conquense, Jane Hiltbrand (<a href=\"https://www.architecturalcuenca.com\">sitio web</a>)\n', '/images/ungala/auction-items/112.jpg', 100, 50, 70);
+-- rows: 1
+-- takes: 106.170 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (8, '48', 'Recliner in Microfiber', 'Sillón reclinable de microfibra', 'Donated by JD Muebles', 'Donada por JD Muebles', 'Super comfortable Microfiber Recliner as featured at the gala. The recliner style can be changed and bid applied to another available model from the donor company. ', 'Súper cómodo sillón reclinable de microfibra como el presentado en la gala. El estilo del sillón reclinable se puede cambiar y la oferta se puede aplicar a otro modelo disponible de la empresa donante.', '/images/ungala/auction-items/48.png', 425, 200, 80);
+-- rows: 1
+-- takes: 106.199 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (9, '102', '3-Day Paper Making Class', 'Curso de 3 días sobre fabricación de papel', 'Donated by Kimberley Wood ', 'Donada por Kimberley Wood ', 'Set loose your creative side in this 3-day workshop of paper making! You will try different techniques of making paper from fibers native to Ecuador.\n\n  - Day 1: Learn to pull sheets of plain paper and use inclusions of flowers, leaves, string and more.\n  - Day 2: Make colored paper and two-toned sheets of paper.\n  - Day 3: Make marbled paper and use Japanese stab-binding in a decorative book.\n  - All materials are provided.\n  - Coffee,  tea,  juice and snacks are provided.\n', '¡Da rienda suelta a tu lado creativo en este taller de 3 días de fabricación de papel! Probarás diferentes técnicas de fabricación de papel a partir de fibras autóctonas de Ecuador.\n\n  - Día 1: Aprende a tirar hojas de papel liso y a usar inclusiones de flores, hojas, cordeles y más.\n  - Día 2: Haga papel de colores y hojas de papel de dos tonos.\n  - Día 3: Haga papel jaspeado y utilice la encuadernación japonesa en un libro decorativo.\n  - Todos los materiales están incluidos.\n  - Café,  té,  jugos y bocadillos.', '/images/ungala/auction-items/102.png', 175, 87, 90);
+-- rows: 1
+-- takes: 106.516 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (10, '16', 'Custom Pet Portrait by Amelia Earl', 'Retrato personalizado de mascota por Amelia Earl', 'Donated by Amerlia Earl', 'Donada por Amelia Earl', 'Capture the amazing essence of your best friend forever with a custom pet portrait by artist Amelia Earl. ', 'Captura para siempre la increíble esencia de tu mejor amigo con un retrato personalizado de mascota realizado por la artista Amelia Earl.', '/images/ungala/auction-items/16.jpeg', 300, 150, 100);
+-- rows: 1
+-- takes: 106.357 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (11, '51', 'Pewter Menorah from Israel', 'Menorah de peltre de Israel', 'Donated by Eden Cross', 'Donada por Eden Cross', 'Distinctive Pewter Menorah from Israel. Subtle  landscapes of Israeli houses engraved through out the piece.  ', 'Distintiva menorá de peltre procedente de Israel. Sutiles paisajes de casas israelíes grabados por toda la pieza.', '/images/ungala/auction-items/51.jpeg', 225, 115, 110);
+-- rows: 1
+-- takes: 105.813 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (12, '96', 'Genuine Garnet Ring ', 'Anillo de granate auténtico', 'Donated by Kathy Keel', 'Donada por Kathy Keel', 'Large Marquise-shaped genuine Garnet ring with channel set garnets and 10K Gold. Approximate gem stone weight is over two carets.', 'Anillo de granate genuino en forma de marquesa con granates engastados en canal y oro de 10 quilates. El peso aproximado de la gema es de más de dos quilates.', '/images/ungala/auction-items/96.jpeg', 600, 300, 120);
+-- rows: 1
+-- takes: 105.950 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:02
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (13, '91', 'Ceramic Pot by Eduardo Segovia', 'Maceta de cerámica de Eduardo Segovia', 'Donated by Mary Thomajan', 'Donada por Mary Thomajan', 'Andean Series early period ceramic pot with stand by artist Eduardo Segovia.', 'Olla de cerámica de la Serie Andina de la primera época con soporte del artista Eduardo Segovia.', '/images/ungala/auction-items/91.jpeg', 500, 250, 130);
+-- rows: 1
+-- takes: 105.635 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `biddable_items` (`id`, `item_number`, `item_name_en`, `item_name_es`, `caption_en`, `caption_es`, `description_en`, `description_es`, `file_location`, `value`, `minimum`, `sort_order`) VALUES (14, '43', '$800 Full Lazer Treatment', '$800 Tratamiento Lazer Completo', 'Donated by Dr. Victor Astudillo', 'Donada por Dr. Victor Astudillo', 'Dr. Victor is a certified Aesthetic and Reconstructive Plastic Surgeon, with fifteen years of experience in Palm Beach, Florida and Ecuador. He specializes in cosmetic-aesthetic, facial, breast, and body Plastic Surgery. He is recognized by his international patients and colleagues alike for his outstanding results in facial aesthetic surgery. Dr. Victor\'s most redeeming quality is his artistic eye, which allows him to balance aesthetics and beauty to achieve natural, harmonic and lasting results.', 'El Dr. Victor es un Cirujano Plástico Estético y Reconstructivo certificado, con quince años de experiencia en Palm Beach, Florida y Ecuador. Se especializa en Cirugía Plástica cosmética-estética, facial, mamaria y corporal. Es reconocido por sus pacientes internacionales y colegas por sus excelentes resultados en cirugía estética facial. El Dr. Victor es su ojo artístico, que le permite equilibrar la estética y la belleza para lograr resultados naturales, armónicos y duraderos.', '/images/ungala/auction-items/43.jpeg', 800, 400, 140);
+-- rows: 1
+-- takes: 105.708 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: TRUNCATE `buy_now_orders`
+-- takes: 148.336 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: TRUNCATE `contacts`
+-- takes: 110.992 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (1, 'Carmen Méndez ', 'carmenduque0204@gmail.com', 'Donar un tapiz ', 'Nos gustaría donar un tapiz hecho en macramé, valorado en $100 aproximadamente. Por favor más detalles. Gracias ', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Mon, 11 Sep 2023 18:16:40 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: B5lz7CUnTCyusCA6TNF3FQ\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-09-11 18:16:40');
+-- rows: 1
+-- takes: 107.331 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (2, 'Todd Johns', 'runnerman1603@gmail.com', 'Purchasing tickets for the Gala on October 7', 'I\'m interested to purchase two tickets for the Oct 7th event.\nI looked on a website that mentioned La Cuadra as the place to get them.\nI noticed that La Cuadra is only open from 6:30 pm which is not convenient for me.\nIs there another place where the tickets are sold that might be easier to obtain?\nThanks,\nTodd Johns', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Tue, 12 Sep 2023 18:27:02 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: 7syD_z11Rv-OqQeo-WsRzw\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-09-12 18:27:02');
+-- rows: 1
+-- takes: 105.288 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (3, 'Felma Melecio Nato ', 'gclarefelma@gmail.com', NULL, 'Donde puedo pagar Los ticket. Necessito un cuenta bancaria por fa', '{\n    \"statusCode\": 400,\n    \"headers\": [\n        \"HTTP\\/1.1 400 Bad Request\",\n        \"Server: nginx\",\n        \"Date: Wed, 13 Sep 2023 21:31:15 GMT\",\n        \"Content-Type: application\\/json\",\n        \"Content-Length: 293\",\n        \"Connection: keep-alive\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"{\\\"errors\\\":[{\\\"message\\\":\\\"The subject is required. You can get around this requirement if you use a template with a subject defined or if every personalization has a subject defined.\\\",\\\"field\\\":\\\"subject\\\",\\\"help\\\":\\\"http:\\/\\/sendgrid.com\\/docs\\/API_Reference\\/Web_API_v3\\/Mail\\/errors.html#message.subject\\\"}]}\"\n}', '2023-09-13 21:31:15');
+-- rows: 1
+-- takes: 110.418 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (4, 'Margie Grillo', 'mhgrillo@gmail.com', NULL, 'We would like to make a donation to FAAN. Our friend has asked since we will not be attending the formal event, to make a donation. Is it possible to do thru PayPal or credit card.', '{\n    \"statusCode\": 400,\n    \"headers\": [\n        \"HTTP\\/1.1 400 Bad Request\",\n        \"Server: nginx\",\n        \"Date: Thu, 14 Sep 2023 03:01:27 GMT\",\n        \"Content-Type: application\\/json\",\n        \"Content-Length: 293\",\n        \"Connection: keep-alive\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"{\\\"errors\\\":[{\\\"message\\\":\\\"The subject is required. You can get around this requirement if you use a template with a subject defined or if every personalization has a subject defined.\\\",\\\"field\\\":\\\"subject\\\",\\\"help\\\":\\\"http:\\/\\/sendgrid.com\\/docs\\/API_Reference\\/Web_API_v3\\/Mail\\/errors.html#message.subject\\\"}]}\"\n}', '2023-09-14 03:01:27');
+-- rows: 1
+-- takes: 107.017 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (5, 'Ana', 'anitaguachunarevalo@gmail.com', 'Kolo restaurante ', 'I contact you from Kolo. Frank is currently not in the country and the restaurant does not have much information about his participation in the event. Could you provide me with some form of contact?', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Thu, 28 Sep 2023 13:36:56 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: PPrc7RaFRhCnSQq1cphK4A\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-09-28 13:36:56');
+-- rows: 1
+-- takes: 107.008 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:03
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (6, 'Millena Jarrín ', 'lalyjarrind@hotmail.com', 'Rossmery', 'Buenos días, acabo de comprar una entrada para la velada de esta tarde y noche, le agradecería que me ayude con un lugar en una mesa divertida para disfrutar de este hermoso evento, muchas gracias Rossmery', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Sat, 07 Oct 2023 14:02:37 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: f8WGHMpaQ9auBDhqt0iPKg\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-10-07 14:02:37');
+-- rows: 1
+-- takes: 105.637 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:04
+
+OK: INSERT INTO `contacts` (`id`, `name`, `email`, `subject`, `message`, `send_status`, `date`) VALUES (7, 'Millena ', 'lalyjarrind@hotmail.com', 'Rossmery', 'Buenos días, sería posible asistir está noche al evento por favor ya que es la primera vez para mí poder estar en un eventual por una causa tan noble como la de colaborar para el hogar de los angelitos ❤️', '{\n    \"statusCode\": 202,\n    \"headers\": [\n        \"HTTP\\/1.1 202 Accepted\",\n        \"Server: nginx\",\n        \"Date: Sat, 07 Oct 2023 14:35:07 GMT\",\n        \"Content-Length: 0\",\n        \"Connection: keep-alive\",\n        \"X-Message-Id: vw9QLPQgRdeRiygeL2RP4Q\",\n        \"Access-Control-Allow-Origin: https:\\/\\/sendgrid.api-docs.io\",\n        \"Access-Control-Allow-Methods: POST\",\n        \"Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl\",\n        \"Access-Control-Max-Age: 600\",\n        \"X-No-CORS-Reason: https:\\/\\/sendgrid.com\\/docs\\/Classroom\\/Basics\\/API\\/cors.html\",\n        \"Strict-Transport-Security: max-age=600; includeSubDomains\",\n        \"\",\n        \"\"\n    ],\n    \"body\": \"\"\n}', '2023-10-07 14:35:07');
+-- rows: 1
+-- takes: 106.373 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:28
+-- driver: mysqli/
+-- 2023-10-26 13:34:04
+
+OK: TRUNCATE `donations`
+-- takes: 144.295 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:04
+
+OK: TRUNCATE `online_bids`
+-- takes: 154.574 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:04
+
+OK: TRUNCATE `registrations`
+-- takes: 157.131 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/temp.php:24
+-- driver: mysqli/
+-- 2023-10-26 13:34:04
+
