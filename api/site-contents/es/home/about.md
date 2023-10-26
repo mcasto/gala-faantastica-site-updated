@@ -1,0 +1,1 @@
+Únase a nosotros en la Gala benéfica anual de Cuenca, en la que la comunidad ecuatoriana “Animales de Ecuador” se reúne para recaudar fondos esenciales para la primera fase del nuevo refugio de animales de FAAN. Se espera que entre 150 y 200 personas asistan a este vento especial en Cuenca, Ecuador.

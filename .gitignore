@@ -1,0 +1,9 @@
+temp*
+error.log
+md-*.txt
+md_*.php
+admin.db
+sendgrid.key
+.DS_Store
+gala-thanks-vid.mp4
+highlight-vid.mp4

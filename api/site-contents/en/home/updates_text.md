@@ -1,0 +1,1 @@
+at Cuenca's Charity Event of the Year for FAAN (Fundacion Familia Amor Animal) building Ecuador's First US Standard Animal Shelter and Making Cuenca known as the "City that Cares" about Animal Welfare

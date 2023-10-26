@@ -1,0 +1,1 @@
+If you live in Ecuador, be sure to [get your tickets](https://amicicannis1.ddock.gives/?givingPageId=e2d53e73-039f-4b81-acf7-5632a0c753e4) for October 7th early and join us as business or individual sponsor. Also, consider donating to our silent and live auction.

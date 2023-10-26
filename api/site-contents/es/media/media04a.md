@@ -1,0 +1,1 @@
+Si usted vive en Ecuador, asegúrese de [obtener sus entradas](https://amicicannis1.ddock.gives/?givingPageId=e2d53e73-039f-4b81-acf7-5632a0c753e4) para el 7 de octubre temprano y únase a nosotros como patrocinador empresarial o individual. Además, considere la posibilidad de donar a nuestra subasta silenciosa y en vivo.

@@ -1,0 +1,6 @@
+- Welcoming Drink and Cheese Board
+- Live Music
+- Open Bar All Evening
+- Formal Dining (Chicken and Beef with a Vegetarian Option)
+- A Silent and Live Auction
+- FAAN-TASTICA Entertainment

@@ -1,0 +1,21 @@
+{
+    "name": "zeus/image",
+    "description": "image resize  and create thumbnail",
+    "keywords": ["image", "resize","gd","library","php","thumbnail"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dılo sürücü",
+            "email": "berxudar@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+
+
+        "psr-4":{
+
+            "Image\\":"src"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+El 100% de todos los fondos de la subasta se destinarán a la construcción del nuevo refugio de animales FAAN.

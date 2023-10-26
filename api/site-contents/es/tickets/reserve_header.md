@@ -1,0 +1,1 @@
+Consiga sus entradas individuales o conviértase en Embajador para una mesa de ocho personas
