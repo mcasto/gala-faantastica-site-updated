@@ -430,3 +430,108 @@ OK: TRUNCATE `registrations`
 -- driver: mysqli/
 -- 2023-10-26 13:34:04
 
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 106.682 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-11-01 21:46:37
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 18.250 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-11-01 21:46:37
+
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 2.877 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-12-20 02:34:05
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.527 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:34:05
+
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 0.546 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-12-20 02:34:28
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.532 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:34:28
+
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 0.592 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-12-20 02:34:45
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.470 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:34:45
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.415 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:36:46
+
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 0.800 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-12-20 02:36:48
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.528 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:36:48
+
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 0.599 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-12-20 02:37:33
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.294 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:37:33
+
+OK: SELECT * FROM biddable_items ORDER BY sort_order;
+-- rows: 14
+-- takes: 0.436 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-biddable-items.php:4
+-- driver: mysqli/
+-- 2023-12-20 02:38:17
+
+OK: SELECT file_location FROM biddable_items;
+-- rows: 14
+-- takes: 0.285 ms
+-- source: /Users/mike/programming-projects/gala-faantastica-dev/public/api/methods/get-contents.php:5
+-- driver: mysqli/
+-- 2023-12-20 02:38:18
+
