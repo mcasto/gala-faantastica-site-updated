@@ -45,7 +45,7 @@ class Database
       'username' => $username,
       'password' => $password,
       'database' => $dbName,
-      'profiler' => ['file' => __DIR__ . '/sql.log']
+      // 'profiler' => ['file' => __DIR__ . '/sql.log']
     ];
   }
 }
